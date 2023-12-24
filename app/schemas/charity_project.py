@@ -2,7 +2,8 @@ from typing import Optional
 
 from pydantic import BaseModel, conint, Extra, Field, validator
 
-from app.core.config import Constant, Message
+from app.core import messages as Message
+from app.core import constants as Constant
 from app.schemas.charity_mixins import CharityDBMixin
 
 

@@ -1,0 +1,8 @@
+JWT_TOKEN_URL = 'auth/jwt/login'
+JWT_AUTH_BACKEND_NAME = 'jwt'
+NAME_FLD_MIN_LEN = 1
+NAME_FLD_MAX_LEN = 100
+CHARITY_PROJ_ENDPOINTS_PREFIX = '/charity_project'
+CHARITY_PROJ_ENDPOINTS_TAGS = ('charity_projects',)
+DONATION_ENDPOINTS_PREFIX = '/donation'
+DONATION_ENDPOINTS_TAGS = ('donations',)

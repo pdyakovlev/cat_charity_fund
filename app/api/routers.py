@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 from app.api.endpoints import (charityproject_router, donation_router,
                                user_router)
-from app.core.config import Constant
+from app.core import constants as Constant
 
 main_router = APIRouter()
 
